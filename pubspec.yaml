@@ -1,0 +1,39 @@
+name: hay_quran
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  audioplayers: ^6.1.0
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.0
+  flutter_native_splash: ^2.4.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/logo.png"
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  image: images/logo.png
+  color: "#98DED9"
+  android_12:
+    image: images/logo.png
+    color: "#98DED9"
